@@ -22,6 +22,7 @@
     <link id="mainStyles" rel="stylesheet" media="screen" href="<?php echo base_url(); ?>assets/css/styles.min.css">
     <!-- Customizer Styles-->
     <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>assets/customizer/customizer.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/mediaqueries/mediaqueries.css">
     <!-- Google Tag Manager-->
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -149,7 +150,7 @@
     <!-- Main Slider-->
    
   <!--- Slider Section --->
-	<div class="container-fluid">
+	<div class="container-fluid top_padder">
 		  <div class="my-4 owl-carousel" data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: false, &quot;margin&quot;: 15, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;630&quot;:{&quot;items&quot;:2},&quot;991&quot;:{&quot;items&quot;:3},&quot;1200&quot;:{&quot;items&quot;:3}} }">
 			<?php foreach($slider as $srow):?>
 			<div>

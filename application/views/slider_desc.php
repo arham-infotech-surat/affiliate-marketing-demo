@@ -22,6 +22,7 @@
     <link id="mainStyles" rel="stylesheet" media="screen" href="<?php echo base_url(); ?>assets/css/styles.min.css">
     <!-- Customizer Styles-->
     <link rel="stylesheet" media="screen" href="<?php echo base_url(); ?>assets/customizer/customizer.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/mediaqueries/mediaqueries.css">
     <!-- Google Tag Manager-->
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -89,7 +90,7 @@
     <noscript>
       <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-T4DJFPZ" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
     </noscript>
-    <!-- Template Customizer-->
+    <!-- Template Customizer--> 
  
     <!-- Header-->
     <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
@@ -98,20 +99,17 @@
     <!-- Page Content-->
     <!-- Main Slider-->
    
-	<div class="page-title">
-		<div class="container">
-			<div class="column">
-			  <ul class="breadcrumbs">
-				<li><a href="<?php echo base_url();?>">Home</a>
-				</li>
-				<li class="separator">&nbsp;</li>
-				<li><?php echo $slider_desc[0]['slider_name']; ?></li>
-			  </ul>
-			</div>
-		</div>
-	</div>
+	
   <!--- Slider Section --->
-	<div class="container">
+	<div class="container top_padder">
+    <div class="column">
+        <ul class="breadcrumbs">
+        <li><a href="<?php echo base_url();?>">Home</a>
+        </li>
+        <li class="separator">&nbsp;</li>
+        <li><?php echo $slider_desc[0]['slider_name']; ?></li>
+        </ul>
+      </div>
 		<div class="my-4 card">
 			<div class="card-body border-0">
 				<img src="<?php echo base_url();?>admin/assets/Uploads/Images/Slider/<?php echo $slider_desc[0]['slider_img']; ?>" class="mx-auto d-block"/>
